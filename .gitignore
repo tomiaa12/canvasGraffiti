@@ -1,0 +1,5 @@
+node_modules
+
+# 编译后文件不上传到 git
+es
+lib
