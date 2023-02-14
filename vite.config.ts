@@ -24,13 +24,7 @@ export const config: UserConfigExport = {
     rollupOptions: {
       input: ["src/index.ts"],
       // 确保外部化处理那些你不想打包进库的依赖
-      external: [
-        "@tomiaa/utils",
-        "@tomiaa/hitokoto",
-        "axios",
-        "pixi-live2d-display",
-        "pixi.js",
-      ],
+      external: ["@tomiaa/utils"],
       output: [
         {
           format: "es", // es6 模块
