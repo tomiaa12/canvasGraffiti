@@ -1,8 +1,8 @@
-import type { UserConfigExport } from "vite";
-import { defineConfig } from "vite";
+import type { UserConfigExport } from "vite"
+import { defineConfig } from "vite"
 
 // 生成打包后的 ts 类型文件
-import dts from "vite-plugin-dts";
+import dts from "vite-plugin-dts"
 
 export const config: UserConfigExport = {
   plugins: [
@@ -51,6 +51,6 @@ export const config: UserConfigExport = {
       ],
     },
   },
-};
+}
 
-export default defineConfig(config);
+export default defineConfig(config)
