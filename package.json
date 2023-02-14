@@ -1,6 +1,6 @@
 {
   "name": "@tomiaa/canvas-graffiti",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "description": "canvas 涂鸦画板，支持笔写、手写、鼠标绘图",
   "main": "lib/index.js",
@@ -41,5 +41,13 @@
     "vite": "^4.1.1",
     "vite-plugin-dts": "^1.7.2",
     "vue-tsc": "^1.0.24"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomiaa12/canvasGraffiti.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomiaa12/canvasGraffiti/issues"
+  },
+  "homepage": "https://kuangyx.cn/docs/%E6%96%87%E7%AB%A0/JS%20Lib/canvas%20%E6%B6%82%E9%B8%A6%E7%94%BB%E6%9D%BF.html"
 }
