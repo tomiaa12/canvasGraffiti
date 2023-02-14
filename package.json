@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build": "vue-tsc --noEmit && vite build",
-    "log": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -n ./changelog.ts"
   },
   "keywords": [
     "@tomiaa",
