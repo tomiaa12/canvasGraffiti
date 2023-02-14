@@ -17,5 +17,5 @@
     "noImplicitAny": true
   },
   "include": ["**/*.ts", "**/*.d.ts", "**/*.tsx", "**/*.vue"],
-  "exclude": ["es", "lib", "build"]
+  "exclude": ["es", "lib", "node_modules", "./changelog.ts"]
 }
